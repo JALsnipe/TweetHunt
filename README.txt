@@ -1,3 +1,6 @@
+Original Code by Charlie Robbins
+https://github.com/indexzero/twitter-no-backend
+
 NOTE: I had shipped this incomplete.  I'm uploading it to github as a personal project I may improve upon in the future.
 
 COMS W4170: User Interface Design
