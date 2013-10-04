@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width">
+
+<!-- CSS imports -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <!-- Uset FontAwesome for my icons. -->
+    <link href="http://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+    <!-- <link rel="stylesheet" href="css/normalize.min.css"> -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+  </head>
+  <body>
+    <nav class="navbar navbar-default" role="navigation">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="#">TweetHunt</a>
+      </div>
+    </nav>
+    <div class="main">
+      <div class="input-group">
+        <span class="input-group-addon">
+          <i class="icon-keyboard"></i>
+        </span>
+        <!-- Query input form -->
+        <input type="text" class="form-control" placeholder="Query.  Example: hello" id="query_input">
+      </div>
+      <div class="input-group">
+        <span class="input-group-addon">
+          <i class="icon-location-arrow"></i>
+        </span>
+        <!-- Location input form -->
+        <input type="text" class="form-control" placeholder="Location.  Example: 37.781157,-122.398720,10mi" id="location_input">
+      </div>
+      <div class="input-group">
+        <span class="input-group-addon">
+          <i class="icon-calendar"></i>
+        </span>
+        <!-- Start date input -->
+        <input type="text" class="form-control" placeholder="Start Date.  Example: 2013-10-01" id="start_input">
+      </div>
+      <div class="input-group">
+        <span class="input-group-addon">
+          <i class="icon-calendar"></i>
+        </span>
+        <!-- End date input -->
+        <input type="text" class="form-control" placeholder="End Date.  Example: 2013-10-03" id="end_input">
+      </div>
+      <!-- Search button -->
+      <button type="button" class="btn btn-primary" id="query_button">Search</button>
+      <!-- Get Location ID button -->
+      <button type="button" class="btn btn-primary" id="loc_button">Get Location ID</button>
+	<div id="temp"><br/>
+      </div>
+</form>
+      </p>
+    </div>
+  <ul></ul>
+  <!-- js imports -->
+    <script type="text/javascript" src="js/vendor/jquery-1.10.1.min.js"></script>
+    <script type="text/javascript" src="js/vendor/codebird-js/sha1.js"></script>
+    <script type="text/javascript" src="js/vendor/codebird-js/codebird.js"></script>
+    <script type="text/javascript" src="js/bootstrap.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
